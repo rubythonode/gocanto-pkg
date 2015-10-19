@@ -1,0 +1,12 @@
+{
+    "name": "gocanto/simple-admin",
+    "description": "A package which provides a simple UI for managing users",
+    "authors": [
+        {
+            "name": "Gustavo Ocanto",
+            "email": "gustavoocanto@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
