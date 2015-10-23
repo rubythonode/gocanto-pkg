@@ -121,7 +121,7 @@ Finally we need to add our service provider to the array providers array in conf
 Gocanto\SimpleAdmin\SimpleAdminServiceProvider::class
 ```
 
-If you are interested in lear more about laravel services providers, you can click on the following link 
+If you are interested in learning more about laravel services providers, you can click on the following link 
 * [Laravel/ServicesProviders](http://laravel.com/docs/5.1/providers)
 
 ##Creating a controller for our package
