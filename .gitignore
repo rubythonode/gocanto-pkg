@@ -1,2 +1,4 @@
 /vendor
-/tests
+/node_modules
+.env
+composer.lock
