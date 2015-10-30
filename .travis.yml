@@ -13,4 +13,4 @@ install:
 sudo: false
 
 script:
-  - phpunit /tests/ExampleTest.php
+  - phpunit tests/ExampleTest.php
