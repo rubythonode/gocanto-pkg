@@ -9,3 +9,5 @@ php:
 # optionally specify a list of environments, for example to test different RDBMS
 install:
   - composer install
+
+sudo: false
