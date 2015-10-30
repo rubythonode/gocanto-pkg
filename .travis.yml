@@ -12,4 +12,5 @@ install:
 
 sudo: false
 
-script: phpunit --configuration phpunit_$DB.xml --coverage-text
+script:
+  - ./bin/phpunit
