@@ -9,6 +9,7 @@ php:
 # optionally specify a list of environments, for example to test different RDBMS
 install:
   - composer install
+  - composer global require laravel/framework:5.1.*
   - composer global require phpunit/phpunit:~4.0
 
 sudo: false
