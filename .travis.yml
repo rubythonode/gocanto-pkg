@@ -1,3 +1,4 @@
+install: php vendor/vendors.php
 composer install
 language: php
 php:
