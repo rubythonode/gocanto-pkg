@@ -13,8 +13,8 @@ class SimpleAdminServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        if (is_dir(base_path() . '/resources/views/gocanto/simpleAdmin')) {
-            $this->loadViewsFrom(base_path() . '/resources/views/gocanto/simpleAdmin', 'simpleAdmin');
+        if (is_dir(base_path().'/resources/views/gocanto/simpleAdmin')) {
+            $this->loadViewsFrom(base_path().'/resources/views/gocanto/simpleAdmin', 'simpleAdmin');
         } else {
             $this->loadViewsFrom(__DIR__.'/views', 'simpleAdmin');
         }

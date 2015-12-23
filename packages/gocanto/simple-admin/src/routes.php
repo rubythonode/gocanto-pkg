@@ -1,5 +1,3 @@
 <?php
 
-	Route::get('admin', 'gocanto\simpleAdmin\SimpleAdminController@index');
-
-?>
+    Route::get('admin', 'gocanto\simpleAdmin\SimpleAdminController@index');
